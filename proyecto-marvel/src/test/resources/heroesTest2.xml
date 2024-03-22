@@ -1,0 +1,16 @@
+<heroes>
+   <personajes>
+      <personaje>
+         <nombre>Prueba</nombre>
+         <alias>Pruebaapellido</alias>
+         <genero>NS</genero>
+         <poderes/>
+      </personaje>
+      <personaje>
+         <nombre>sad</nombre>
+         <alias>djs</alias>
+         <genero>genero</genero>
+         <poderes/>
+      </personaje>
+   </personajes>
+</heroes>
