@@ -3,12 +3,18 @@
     "nombre": "Prueba",
     "alias": "Pruebaapellido",
     "genero": "NS",
-    "poderes": []
+    "poderes": [
+      "poder test",
+      "impactrueno"
+    ]
   },
   {
     "nombre": "sad",
     "alias": "djs",
     "genero": "genero",
-    "poderes": []
+    "poderes": [
+      "poder test",
+      "impactrueno"
+    ]
   }
 ]

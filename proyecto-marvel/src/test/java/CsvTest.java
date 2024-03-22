@@ -12,7 +12,7 @@ public class CsvTest {
     @Test
     public void readCsvTest () {
         IOperacionesFichero fileCsv = new FileCsv();
-        Heroes heroes = fileCsv.readFromFile("src/test/resources/heroesTest.csv");
+        Heroes heroes = fileCsv.readFromFile("proyecto-marvel/src/test/resources/heroesTest.csv");
         Assertions.assertEquals(heroes.getPersonajes().size(), 2, "El resultado no es el esperado");
     }
 

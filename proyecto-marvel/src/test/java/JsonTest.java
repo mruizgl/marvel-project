@@ -21,13 +21,13 @@ public class JsonTest {
         Personaje personaje2 = new Personaje("sad", "djs", "genero", poderes);
         heroes.addHeroe(personaje1);
         heroes.addHeroe(personaje2);
-        fileJson.saveToFile("src/test/resources/heroesTest2.json", heroes);
+        fileJson.saveToFile("proyecto-marvel/src/test/resources/heroesTest2.json", heroes);
     }
 
     @Test
     public void readJson () {
         IOperacionesFichero fileJson = new FileJson();
-        Heroes heroes = fileJson.readFromFile("src/test/resources/heroesTest.json");
+        Heroes heroes = fileJson.readFromFile("proyecto-marvel/src/test/resources/heroesTest2.json");
         Assertions.assertEquals(heroes.getPersonajes().size(), 2, "El resultado no es el esperado");
     }
 }
